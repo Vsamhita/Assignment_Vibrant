@@ -43,7 +43,7 @@ POST /api/blogs
 
 body
 {
-    "title": "NodeJs new 2",
+    "title": "NodeJs",
     "description": "NodeJS",
     "comments": ["hi","hello"],
     
@@ -64,6 +64,14 @@ description : To get the blog with id and posted by logged user
 --------------------------------------------
 
 PUT /api/blogs/:id
+
+body
+{
+    "title": "NodeJs new",
+    "description": "NodeJS",
+    "comments": ["hi","hello"],
+    
+}
 
 description : To update a blog given by id and posted by logged user
 
